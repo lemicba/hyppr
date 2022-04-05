@@ -238,8 +238,17 @@ if (viewportmeta) {
                   <div class="contacts__info h3" data-aos="animation-scale-y" data-aos-delay="400">How can we help you?</div>
                 </div>
                 <div class="contacts__row">
-                  <form class="contacts__form" role="form" action="sendbymail.php" method="post" data-aos="animation-translate-y" data-aos-delay="200">
-                    <div class="span4" id="register_webinar"><input type="checkbox" name="register_webinar" value="1" id="wnr1" /><input type="checkbox" name="register_webinar" value="2" id="wnr2" /><input type="checkbox" name="register_webinar" value="3" id="wnr3" /><input type="checkbox" name="register_webinar" value="4" id="wnr4" /><input type="checkbox" name="register_webinar" value="5" id="wnr5" /><input type="checkbox" name="register_webinar" value="6" id="wnr6" /><input type="checkbox" name="register_webinar" value="7" id="wnr7" /><label for="wnr1"><i class="yes"></i>
+                  <form class="contacts__form" role="form" method="post" action="sendbymail.php" data-aos="animation-translate-y" data-aos-delay="200">
+                    <div class="span4" id="register_webinar">
+                      <input type="checkbox" name="register_webinar" value="1" id="wnr1" />
+                      <input type="checkbox" name="register_webinar" value="2" id="wnr2" />
+                      <input type="checkbox" name="register_webinar" value="3" id="wnr3" />
+                      <input type="checkbox" name="register_webinar" value="4" id="wnr4" />
+                      <input type="checkbox" name="register_webinar" value="5" id="wnr5" />
+                      <input type="checkbox" name="register_webinar" value="6" id="wnr6" />
+                      <input type="checkbox" name="register_webinar" value="7" id="wnr7" />
+
+                      <label for="wnr1"><i class="yes"></i>
                         <div class="contacts__brand"><span></span>
                           <Brand>ID</Brand>
                         </div>
@@ -268,7 +277,12 @@ if (viewportmeta) {
                         </div>
                       </label></div>
                     <div class="contacts__stage stage stage__white" data-aos="animation-scale-y">Your budget is</div>
-                    <div class="span4" id="register_webinar"><input type="radio" name="webinar_two" value="1" id="wnl1" /><input type="radio" name="webinar_two" value="2" id="wnl2" /><input type="radio" name="webinar_two" value="3" id="wnl3" /><input type="radio" name="webinar_two" value="4" id="wnl4" /><label for="wnl1"><i class="yes"></i>
+                    <div class="span4" id="register_webinar">
+                      <input type="radio" name="webinar_two" value="1" id="wnl1" />
+                      <input type="radio" name="webinar_two" value="2" id="wnl2" />
+                      <input type="radio" name="webinar_two" value="3" id="wnl3" />
+                      <input type="radio" name="webinar_two" value="4" id="wnl4" />
+                      <label for="wnl1"><i class="yes"></i>
                         <div class="contacts__brand"><span></span>
                           <USD>2-5k</USD>
                         </div>
@@ -320,7 +334,7 @@ if (viewportmeta) {
                       <div class="contacts__name">What’s on your mind</div>
                       <div class="field__wrap"><textarea class="field__textarea" name="message" placeholder="e.g. I want a new logo and landing page for my project. We are a NFT Marketplace from Berlin"></textarea></div>
                     </div>
-			<div class="contacts__btn"><button type="submit" class="btn btn_green"><span class="btn__text">Send</span><svg class="icon icon-arrow-right">
+                    <div class="contacts__btn"><button class="btn btn_green"><span class="btn__text">Send</span><svg class="icon icon-arrow-right">
                           <use xlink:href="img/sprite.svg#icon-arrow-right"></use>
                         </svg></button></div>
                   </form>
