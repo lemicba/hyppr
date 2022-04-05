@@ -238,8 +238,8 @@ if (viewportmeta) {
                   <div class="contacts__info h3" data-aos="animation-scale-y" data-aos-delay="400">How can we help you?</div>
                 </div>
                 <div class="contacts__row">
-                  <form class="contacts__form" data-aos="animation-translate-y" data-aos-delay="200">
-                    <div class="span4" id="register_webinar"><input type="checkbox" name="register_webinar_" value="1" id="wnr1" /><input type="checkbox" name="register_webinar_" value="2" id="wnr2" /><input type="checkbox" name="register_webinar_" value="3" id="wnr3" /><input type="checkbox" name="register_webinar_" value="4" id="wnr4" /><input type="checkbox" name="register_webinar_" value="5" id="wnr5" /><input type="checkbox" name="register_webinar_" value="6" id="wnr6" /><input type="checkbox" name="register_webinar_" value="7" id="wnr7" /><label for="wnr1"><i class="yes"></i>
+                  <form class="contacts__form" role="form" method="POST" action="sendbymail.php" data-aos="animation-translate-y" data-aos-delay="200">
+                    <div class="span4" id="register_webinar"><input type="checkbox" name="register_webinar" value="1" id="wnr1" /><input type="checkbox" name="register_webinar" value="2" id="wnr2" /><input type="checkbox" name="register_webinar" value="3" id="wnr3" /><input type="checkbox" name="register_webinar" value="4" id="wnr4" /><input type="checkbox" name="register_webinar" value="5" id="wnr5" /><input type="checkbox" name="register_webinar" value="6" id="wnr6" /><input type="checkbox" name="register_webinar" value="7" id="wnr7" /><label for="wnr1"><i class="yes"></i>
                         <div class="contacts__brand"><span></span>
                           <Brand>ID</Brand>
                         </div>
@@ -268,7 +268,7 @@ if (viewportmeta) {
                         </div>
                       </label></div>
                     <div class="contacts__stage stage stage__white" data-aos="animation-scale-y">Your budget is</div>
-                    <div class="span4" id="register_webinar"><input type="radio" name="register_webinar_" value="1" id="wnl1" /><input type="radio" name="register_webinar_" value="2" id="wnl2" /><input type="radio" name="register_webinar_" value="3" id="wnl3" /><input type="radio" name="register_webinar_" value="4" id="wnl4" /><label for="wnl1"><i class="yes"></i>
+                    <div class="span4" id="register_webinar"><input type="radio" name="webinar_two" value="1" id="wnl1" /><input type="radio" name="webinar_two" value="2" id="wnl2" /><input type="radio" name="webinar_two" value="3" id="wnl3" /><input type="radio" name="webinar_two" value="4" id="wnl4" /><label for="wnl1"><i class="yes"></i>
                         <div class="contacts__brand"><span></span>
                           <USD>2-5k</USD>
                         </div>
@@ -299,21 +299,21 @@ if (viewportmeta) {
                     <div class="flex_contact">
                       <div class="contacts__field field">
                         <div class="contacts__name">Your project</div>
-                        <div class="field__wrap"><input class="field__input" type="text" name="name" placeholder="e.g. NFT Marketplace" /></div>
+                        <div class="field__wrap"><input class="field__input" type="text" name="project" placeholder="e.g. NFT Marketplace" /></div>
                       </div>
                       <div class="contacts__field field">
                         <div class="contacts__name">Where do you know us from?</div>
-                        <div class="field__wrap"><input class="field__input" type="email" name="email" placeholder="Telegram Group" /></div>
+                        <div class="field__wrap"><input class="field__input" type="email" name="conoce" placeholder="Telegram Group" /></div>
                       </div>
                     </div>
                     <div class="flex_contact">
                       <div class="contacts__field field">
                         <div class="contacts__name">Deadline</div>
-                        <div class="field__wrap"><input class="field__input" type="text" name="name" placeholder="e.g. August 10 2022" /></div>
+                        <div class="field__wrap"><input class="field__input" type="text" name="deadline" placeholder="e.g. August 10 2022" /></div>
                       </div>
                       <div class="contacts__field field">
                         <div class="contacts__name">Telephone</div>
-                        <div class="field__wrap"><input class="field__input" type="email" name="email" placeholder="e.g. +54 911 1234 5678" /></div>
+                        <div class="field__wrap"><input class="field__input" type="email" name="phone" placeholder="e.g. +54 911 1234 5678" /></div>
                       </div>
                     </div>
                     <div class="contacts__field field field_textarea">
